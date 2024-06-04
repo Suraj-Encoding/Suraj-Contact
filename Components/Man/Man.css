@@ -1,0 +1,25 @@
+/* ## Man CSS ## */
+
+/* # Dog */
+.dog {
+    position: absolute;
+    top: -75px;
+    left: 320px;
+    visibility: collapse;
+    animation: reversed 1s linear infinite;
+}
+
+@media screen and (min-width: 900px) {
+    .dog {
+        visibility: visible;
+    }
+}
+
+/* # Example Container */
+.Example__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
