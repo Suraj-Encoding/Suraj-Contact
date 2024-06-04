@@ -11,28 +11,23 @@ const Man = () => {
     return (
         <>
             <div className="Example__container">
-                <div
-                    className="Example__container__document"
-                    style={{ position: "relative" }}
-                >
-                    <Image
-                        id="man"
-                        src={SittingMan}
-                        width={300}
-                        height={300}
-                        alt="Man"
-                        className="manSvg"
-                        priority
-                    />
-                    <Image
-                        id="dog"
-                        src={Dog}
-                        width={170}
-                        height={170}
-                        alt="Dog"
-                        className="dog reverse"
-                    />
-                </div>
+                <Image
+                    id="man"
+                    src={SittingMan}
+                    width={300}
+                    height={300}
+                    alt="Man"
+                    className="manSvg"
+                    priority
+                />
+                <Image
+                    id="dog"
+                    src={Dog}
+                    width={170}
+                    height={170}
+                    alt="Dog"
+                    className="dog reverse"
+                />
             </div>
         </>
     );
