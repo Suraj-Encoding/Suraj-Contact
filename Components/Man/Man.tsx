@@ -9,27 +9,25 @@ import Dog from "@/public/Dog.gif"
 // # Man Component
 const Man = () => {
     return (
-        <>
-            <div className="Example__container">
-                <Image
-                    id="man"
-                    src={SittingMan}
-                    width={300}
-                    height={300}
-                    alt="Man"
-                    className="manSvg"
-                    priority
-                />
-                <Image
-                    id="dog"
-                    src={Dog}
-                    width={170}
-                    height={170}
-                    alt="Dog"
-                    className="dog reverse"
-                />
-            </div>
-        </>
+        <div>
+            <Image
+                id="man"
+                src={SittingMan}
+                width={300}
+                height={300}
+                alt="Man"
+                className="man"
+                priority
+            />
+            <Image
+                id="dog"
+                src={Dog}
+                width={170}
+                height={170}
+                alt="Dog"
+                className="dog"
+            />
+        </div>
     );
 }
 

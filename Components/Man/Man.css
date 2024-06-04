@@ -1,24 +1,15 @@
 /* ## Man CSS ## */
 
-/* # Example Container */
-.Example__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
-    padding: 10px;
-}
-
 /* # Man */
-.manSvg {
+.man {
     position: absolute;
-    top: -233px;
-    left: 400px;
+    top: 0px;
+    right: 100px;
     visibility: collapse;
 }
 
 @media screen and (min-width: 900px) {
-    .manSvg {
+    .man {
         visibility: visible;
     }
 }
@@ -26,8 +17,8 @@
 /* # Dog */
 .dog {
     position: absolute;
-    top: -75px;
-    left: 320px;
+    top: 160px;
+    right: 300px;
     visibility: collapse;
     animation: reversed 1s linear infinite;
 }
