@@ -1,5 +1,5 @@
 {
-  "name": "encoding-contact",
+  "name": "suraj-contact",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [
+    "Suraj-Encoding",
+    "Suraj-Contact",
+    "Next"
+  ],
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "next": "13.4.19",
